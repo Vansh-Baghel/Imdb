@@ -11,7 +11,7 @@ function App() {
       <Router>
           <NavBar />
             <Routes>
-                <Route index path='/imdb' element={<Home />}></Route>
+                <Route index path='/Imdb' element={<Home />}></Route>
                 <Route path="movie/:id" element={<MovieDetails />}></Route>
                 <Route path="movies/:type" element={<MoviesList />}></Route>
                 <Route path="/*" element={<h1>Error Page</h1>}></Route>
