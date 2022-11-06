@@ -14,7 +14,7 @@ const Home = () => {
       try{
       const getMovies = async () => {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/top_rated/?api_key=${apiKey}&language=en-US`
+          `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US`
         );
         const data = await response.json();
         setHomeMovies(data.results);
