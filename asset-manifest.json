@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Imdb/static/css/main.e7c41bcf.css",
-    "main.js": "/Imdb/static/js/main.bda53d73.js",
+    "main.js": "/Imdb/static/js/main.bd3926c6.js",
     "static/js/787.40950247.chunk.js": "/Imdb/static/js/787.40950247.chunk.js",
     "static/media/IMDB_Logo_2016.svg.png": "/Imdb/static/media/IMDB_Logo_2016.svg.b828441e9bf929c8e9bc.png",
     "index.html": "/Imdb/index.html",
     "main.e7c41bcf.css.map": "/Imdb/static/css/main.e7c41bcf.css.map",
-    "main.bda53d73.js.map": "/Imdb/static/js/main.bda53d73.js.map",
+    "main.bd3926c6.js.map": "/Imdb/static/js/main.bd3926c6.js.map",
     "787.40950247.chunk.js.map": "/Imdb/static/js/787.40950247.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c41bcf.css",
-    "static/js/main.bda53d73.js"
+    "static/js/main.bd3926c6.js"
   ]
 }
