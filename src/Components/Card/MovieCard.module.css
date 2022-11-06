@@ -1,0 +1,66 @@
+.card {
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 300px;
+  transition: .2s;
+  overflow: hidden;
+  margin: 0.29rem;
+  min-width: 200px;
+  z-index: 0;
+  border: 1px solid rgb(99, 99, 99);
+}
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card_img {
+  height: 300px;
+}
+
+.card_overlay {
+  position: absolute;
+  padding: 1rem;
+  bottom: 0px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+  font-family: inherit;
+  width: 85%; 
+  opacity: 0;
+}
+
+.card_overlay:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.card_title {
+  font-weight: 900;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.card_runtime {
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.card_rating {
+  float: right;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.description {
+  font-size: small;
+}
