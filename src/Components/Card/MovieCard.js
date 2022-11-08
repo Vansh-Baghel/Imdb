@@ -1,6 +1,7 @@
 import classes from "./MovieCard.module.css";
 import { Link } from "react-router-dom";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import 'react-loading-skeleton/dist/skeleton.css'
 
 import { useEffect, useState } from "react";
 import {AiTwotoneStar} from "react-icons/ai" 
