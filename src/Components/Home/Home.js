@@ -10,6 +10,8 @@ const Home = () => {
     const apiKey = "4e44d9029b1270a757cddc766a1bcb63";
     const [homeMovies, setHomeMovies] = useState([]);
 
+
+
     useEffect(() => {
       try{
       const getMovies = async () => {
@@ -30,11 +32,12 @@ const Home = () => {
 
   return (
     <>
-      <div className={[classes.slider].join(" ")}>
+      <div>
         <Carousel
+          emulateTouch = {true}
           autoPlay={true}
           infiniteLoop={true}
-          showThumbs={false}
+          interval={2000}
           useKeyboardArrows={true}
         >
           {homeMovies.map((movie) => (
